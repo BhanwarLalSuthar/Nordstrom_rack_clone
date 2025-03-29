@@ -1,1 +1,1 @@
-# Nordstrom_rock_clone
+# Nordstrom_rack_clone
