@@ -16,7 +16,7 @@ const { errorHandler } = require('./middlewares/errorMiddleware');
 dotenv.config();
 
 // CORS Configuration
-const whitelist = ['http://localhost:5173', 'http://localhost:5000'];
+const whitelist = ['http://localhost:5173', 'http://localhost:5000',"https://nordstrom-rack-clone-6vug.vercel.app/"];
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.includes(origin)) {
