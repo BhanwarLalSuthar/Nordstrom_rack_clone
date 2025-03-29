@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Box, Typography, Select, MenuItem, Grid, Button, Divider } from '@mui/material';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import axiosInstance from '../api/axiosInstance';
-import FilterSidebar from '../components/FilterSidebar';
+import FilterSidebar from '../components/FilterSideBar';
 import ProductCard from '../components/ProductCard';
 
 const SearchResultsPage = () => {
